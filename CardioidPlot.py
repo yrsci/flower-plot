@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Make a polar cardioid 'flower' plot.
+Make polar cardioid 'flower' plots.
 Short exercise in OOP in Python.
 """
 
@@ -15,14 +15,14 @@ class PolarFlower:
     Generates a flower-like polar cardioid object.
 
     Variable paramaters are the object name, its size, the number
-    of 'petals' and the tilt, which is the phase angle of the object
+    of 'petals' and the tilt, which is the angle of the object axis
     in radians relative to 0.
 
     The methods calculate theta and r values for plotting on a polar plot.
     """
 
     def __init__(self, name='StandardFlower', size=5, petals=5, tilt=0):
-        self.name = str(name)
+        self.name = name
         self.size = size
         self.petals = petals
         self.tilt = tilt
