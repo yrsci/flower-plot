@@ -8,16 +8,16 @@ definition of a cardioid.
 (It would be cool to modify this to produce hypo/epitrochoids instead,
 i.e. spirographs: https://en.wikipedia.org/wiki/Spirograph)
 
-Attributes of the class are:
-self.name: the name of the object
-self.size: diameter of the cardioid to generate
-self.petals: the number of 'petals' in the cardioid
-self.tilt: tilt angle of the object axis (in radians) relative to 0
+Attributes of the class are:\n
+self.name: the name of the object \n
+self.size: diameter of the cardioid to generate \n
+self.petals: the number of 'petals' in the cardioid \n
+self.tilt: tilt angle of the object axis (in radians) relative to 0 \n
 
-Methods are:
+Methods are:\n
 self.thetavals(): Returns a NumPy array of values for theta, from 0 
-to 2pi radians.
-self.rvals(): Returns a NumPy array of radius values for the cardioid
-object, using the theta value array and attributes.
+to 2pi radians.\n
+self.rvals(): Returns a NumPy array of radius values for the cardioid\n
+object, using the theta value array and attributes.\n
 
 Enjoy!
