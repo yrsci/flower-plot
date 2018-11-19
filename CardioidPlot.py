@@ -2,9 +2,8 @@
 
 """
 Make polar cardioid 'flower' plots.
-Short exercise in OOP in Python.
+Short exercise in implementing a class in Python.
 """
-
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,7 +13,7 @@ class PolarFlower:
     """
     Generates a flower-like polar cardioid object.
 
-    Variable paramaters are the object name, its size, the number
+    Attributes are the object name, its size, the number
     of 'petals' and the tilt, which is the angle of the object axis
     in radians relative to 0.
 
